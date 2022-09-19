@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f1e6;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0px;
+  height: 80px;
+}
+
+li, button {
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+a {
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.logo {
+  width: 3.7em;
+  cursor: pointer;
+}
+
+.nav_links {
+  list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links li a {
+  transition: all 0.2s ease 0s;
+}
+
+.nav_links li a:hover {
+  color: #0088a9
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgba(0,136,169,1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  font-size: 1em;
+}
+
+button:hover {
+  background-color: rgba(0,136,169,0.8);
+}
+
+h1 {
+    text-align: center;
+}
+
+.main_top {
+  height: 550px;
+  background-image: url("https://media.istockphoto.com/photos/riding-bicycle-picture-id892647368?k=20&m=892647368&s=612x612&w=0&h=L1AuIPPG-f3CukilT0oU0Y0gySOvAqP_ep3F6vqt64o=");
+  background-size: cover;
+  padding-top: 200px;
+  border-bottom: 3px solid #fff;
+}
+
+.main_text {
+  text-align: center;
+  background: none;
+  font-size: 40px;
+  color: #eeeeee;
+  cursor: default;
+  z-index: 1;
+}
+
+.info {
+  position: static;
+  background-color: #f5f1e6;
+}
+
+.fields {
+  margin: 0px;
+  padding: 100px;
+}
+
+.info fieldset {
+  width: 250px;
+  height: 300px;
+  border: 3px solid #85cc85;
+  padding: 10px 15px;
+}
+
+.info fieldset p {
+  color: #2f2f1f;
+}
+
+.Info_A {
+    margin-left: 15%;
+}
+
+.Info_B {
+  float: right;
+  margin-left: 85%;
+}
+
+.Info_C {
+    margin-left: 15%;
+}
+
+legend {
+  text-align: center;
+  color: #000000;
+  padding: 0 10px;
+}
+
+.support {
+    background: #f5f1e6;
+    padding: 5em 0 10em;
+}
+
+img {
+    transition: 1s ease-in-out 0s;
+}
+
+img:hover {
+    transform: rotateY(180deg) rotateX(360deg);
+}
+
+@media screen and (max-width: 1000px) {
+  .support {
+      padding: 0 0;
+  }
+  .amounts {
+      gap: 1em;
+  }
+  .Info_A {
+    margin-left: 0;
+  }
+  .Info_B {
+    float: none;
+    margin-left: 0;
+    margin: 4em 0;
+  }
+
+  .Info_C {
+    margin-left: 0;
+  }
+  .main_text {
+      font-size: 1em;
+  }
+  .main_top {
+      height: 200px;
+      padding: 130px 0 154px;
+  }
+}
+
+.amounts {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 1.5em;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.fullw {
+    width: 100vw;
+}
+
+.dt {
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+}
+
+footer {
+  background-color: #f5f1e6;
+  padding: 20px;
+}
+
+.Copyright {
+  text-align: center;
+  font-family: arial;
+  font-size: 14px;
+  color: #aa9d99bb;
+}
+
+@media (min-width: 1600px) {
+  .main_text {
+      font-size: 60px;
+  }
+  .main_top {
+    height: 800px;
+  }
+  .fields {
+    padding: 100px 300px;
+  }
+}
