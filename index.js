@@ -22,5 +22,5 @@ function donate(amount) {
     while(!creditcardRegex.test(card = prompt(text))) {
         text = "Please enter a valid credit card number.";
     }
-    alert(`Successfully donated ${amount} to the Ann Party`);
+    alert(`Successfully donated ${amount}$ to the Ann Party`);
 }
