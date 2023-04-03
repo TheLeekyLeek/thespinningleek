@@ -7,12 +7,12 @@ d200  = document.getElementById("d200");
 d500  = document.getElementById("d500");
 d1000 = document.getElementById("d1000");
 
-d10.onclick   = _ => donate(10);
-d50.onclick   = _ => donate(50);
-d100.onclick  = _ => donate(100);
-d200.onclick  = _ => donate(200);
-d500.onclick  = _ => donate(500);
-d1000.onclick = _ => donate(1000);
+//d10.onclick   = _ => donate(10);
+//d50.onclick   = _ => donate(50);
+//d100.onclick  = _ => donate(100);
+//d200.onclick  = _ => donate(200);
+//d500.onclick  = _ => donate(500);
+//d1000.onclick = _ => donate(1000);
 
 const creditcardRegex = /[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}/;
 
